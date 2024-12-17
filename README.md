@@ -1,88 +1,22 @@
-# PixGenie
+# PixGenie🪄
 
 **Transform your Ideas with PixGenie: Powered by AI, Inspired by Magic!**
 
-PixGenie is a modern AI-powered SaaS application designed to seamlessly transform your creative ideas into reality. Whether you're editing or modifying images, PixGenie combines the power of **AI** with a touch of magic to deliver exceptional user experiences.
+PixGenie is a modern AI-powered SaaS application designed to seamlessly transform your creative ideas into reality. Whether you're managing, editing, or generating stunning visuals, PixGenie combines the power of **AI** with a touch of magic to deliver exceptional user experiences.
 
-## ✨ Built With
+Built with cutting-edge technologies like **Next.js 14**, **TypeScript**, and integrated with **Cloudinary** for seamless media management, **Clerk** for secure authentication, and **Stripe** for hassle-free payments, PixGenie ensures a smooth, reliable, and scalable solution for creators and businesses alike.
 
-- **Next.js 14** - Modern React framework for fast, server-rendered applications.
-- **TypeScript** - For type-safe development and maintainable code.
-- **Cloudinary** - Streamlined media storage and management.
-- **Clerk** - Secure and easy-to-implement user authentication.
-- **Stripe** - Simple and efficient payment integration for monetization.
 
----
+## What PixGenie Can Do
+
+- **Home**: Access your workspace with ease.
+- **Image Restore**: Bring old or damaged images back to life.
+- **Generative Fill**: Fill missing parts of your images seamlessly using AI.
+- **Object Remove**: Remove unwanted objects from your visuals effortlessly.
+- **Object Recolor**: Change object colors in your images to suit your needs.
+- **Background Remove**: Remove backgrounds from images in just one click.
+- **Profile**: Manage and customize your user profile easily.
+- **Buy Credits**: Purchase credits to unlock PixGenie's full suite of tools.
 
 Let **PixGenie** be your creative companion and turn your visions into captivating visuals effortlessly! 🚀
 
-
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/PixGenie.git
-cd PixGenie
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm run dev
-```
-
-**Set Up Environment Variables**
-
-Create a new file named `.env.local` in the root of your project and add the following content:
-
-```env
-#NEXT
-NEXT_PUBLIC_SERVER_URL=
-
-#MONGODB
-MONGODB_URL=
-
-#CLERK
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-WEBHOOK_SECRET=
-
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
-
-#CLOUDINARY
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
-CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=
-
-#STRIPE
-STRIPE_SECRET_KEY=
-STRIPE_WEBHOOK_SECRET=
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
-```
-
-Replace the placeholder values with your actual respective account credentials. You can obtain these credentials by signing up on the [Clerk](https://clerk.com/), [MongoDB](https://www.mongodb.com/), [Cloudinary](https://cloudinary.com/) and [Stripe](https://stripe.com)
-
-**Running the Project**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
