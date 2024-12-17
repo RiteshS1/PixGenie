@@ -1,4 +1,4 @@
-# PixGenie🪄
+# PixGenie🪄✨
 
 **Transform your Ideas with PixGenie: Powered by AI, Inspired by Magic!**
 
@@ -7,7 +7,7 @@ PixGenie is a modern AI-powered SaaS application designed to seamlessly transfor
 Built with cutting-edge technologies like **Next.js 14**, **TypeScript**, and integrated with **Cloudinary** for seamless media management, **Clerk** for secure authentication, and **Stripe** for hassle-free payments, PixGenie ensures a smooth, reliable, and scalable solution for creators and businesses alike.
 
 
-## What PixGenie Can Do
+## What PixGenie Can Do?
 
 - **Home**: Access your workspace with ease.
 - **Image Restore**: Bring old or damaged images back to life.
@@ -18,5 +18,5 @@ Built with cutting-edge technologies like **Next.js 14**, **TypeScript**, and in
 - **Profile**: Manage and customize your user profile easily.
 - **Buy Credits**: Purchase credits to unlock PixGenie's full suite of tools.
 
-Let **PixGenie** be your creative companion and turn your visions into captivating visuals effortlessly! 🚀
+Let **PixGenie** be your creative companion and turn your visions into captivating visuals effortlessly! 🚀✨
 
