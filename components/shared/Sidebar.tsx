@@ -12,9 +12,9 @@ const Sidebar = () => {
 
   return (
     <aside className="sidebar">
-      <div className="flex size-full flex-col gap-4">
+      <div className="flex size-full flex-col gap-3">
         <Link href="/" className="sidebar-logo">
-          <Image src="/assets/images/logo-text.svg" alt="logo" width={180} height={28} />
+          <Image src="/assets/images/pixgenielogo.png" alt="logo" width={240} height={28} />
         </Link>
 
         <nav className="sidebar-nav">
@@ -41,6 +41,7 @@ const Sidebar = () => {
                 )
               })}
               </ul>
+              <hr className="h-[0.15rem] w-full bg-purple-400 border-none shadow-lg shadow-purple-300/50 blur-[2px]" />
 
 
             <ul className="sidebar-nav_elements">

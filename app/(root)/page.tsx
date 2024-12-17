@@ -14,7 +14,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
     <>
       <section className="home">
         <h1 className="home-heading">
-          Unleash Your Creative Vision with Imaginify
+        Transform your Ideas with PixGenie: Powered by AI, Inspired by Magic!
         </h1>
         <ul className="flex-center w-full gap-20">
           {navLinks.slice(1, 5).map((link) => (
@@ -40,6 +40,8 @@ const Home = async ({ searchParams }: SearchParamProps) => {
           page={page}
         />
       </section>
+
+      <footer className="mt-10 text-center p-16-semibold "> Made with 💖 by <a href="https://github.com/RiteshS1" className="text-xl text-orange-400 hover:text-white " >RS</a></footer>
     </>
   )
 }

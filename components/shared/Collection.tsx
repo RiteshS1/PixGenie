@@ -49,10 +49,10 @@ export const Collection = ({
   return (
     <>
       <div className="collection-heading">
-        <h2 className="h2-bold text-dark-600">Recent Edits</h2>
+        <h2 className="h2-bold text-dark-500">Recent Edits</h2>
         {hasSearch && <Search />}
       </div>
-{/* 
+
       {images.length > 0 ? (
         <ul className="collection-list">
           {images.map((image) => (
@@ -61,9 +61,9 @@ export const Collection = ({
         </ul>
       ) : (
         <div className="collection-empty">
-          <p className="p-20-semibold">Empty List</p>
+          <p className="p-20-semibold">Buy Credits to access this feature!</p>
         </div>
-      )} */}
+      )}
 
       {totalPages > 1 && (
         <Pagination className="mt-10">
