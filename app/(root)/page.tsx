@@ -63,7 +63,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
         href="https://github.com/RiteshS1"
         className="text-xl text-red-400 hover:text-white"
       >
-        RS
+         RS
       </a>
     </p>
   </div>
