@@ -58,12 +58,12 @@ const Home = async ({ searchParams }: SearchParamProps) => {
   </div>
   <div>
     <p className="p-16-semibold text-center">
-      Made with 💖 by 
+      Made with 💖 by {" "}
       <a
         href="https://github.com/RiteshS1"
         className="text-xl text-red-400 hover:text-white"
       >
-         RS
+       RS
       </a>
     </p>
   </div>
